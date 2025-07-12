@@ -1,0 +1,156 @@
+body {
+    background: url(img/cc646c1dda216f6f7acd2824911b17dc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+}
+.logo img {
+    width: 100px;
+    border-radius: 20px;
+}
+.links-nav {
+    display: flex;
+    gap: 30px;
+} 
+.links-nav li {
+    list-style-type: none;
+}
+.links-nav a {
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+    text-shadow:  0px 0px 10px blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    position: relative;
+    left: -10px;
+    top: 150px;
+}
+.room1 img {
+    width: 500px;
+}
+.room2 img {
+    width: 500px;
+}
+.room1 .img-1 {
+    width: 180px;
+    position: absolute;
+    left: 270px;
+    top: -30px;
+}
+.room2 .img-2 {
+    width: 210px;
+    position: absolute;
+    top: -10px;
+    left: 870px;
+}
+.room1 #t1 {
+    font-size: 60px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.room2 #t2 {
+    font-size: 50px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 220px;
+    left: 900px;
+}
+@media (max-width: 768px) {
+    body {
+        height: 200vh;
+    }
+  .navbar {
+    transform: scale(0.6);
+    position: relative;
+    left: -90px;
+  }
+ .card {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 30px;
+}
+.room1 .img-1 {
+    width: 180px;
+    position: absolute;
+    left: 180px;
+    top: -30px;
+}
+.room2 .img-2 {
+    width: 210px;
+    position: absolute;
+    top: 440px;
+    left: 140px;
+}
+.room1 #t1 {
+    font-size: 60px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+}
+.room2 #t2 {
+    font-size: 50px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 680px;
+    left: 140px;
+}
+}
+@media (max-width: 425px) {
+    body {
+        height: 200vh;
+    }
+  .navbar {
+    transform: scale(0.5);
+    position: relative;
+    left: -90px;
+  }
+ .card {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 30px;
+}
+.room1 .img-1 {
+    width: 180px;
+    position: absolute;
+    left: 140px;
+    top: -30px;
+}
+.room2 .img-2 {
+    width: 210px;
+    position: absolute;
+    top: 440px;
+    left: 100px;
+}
+.room1 #t1 {
+    font-size: 60px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 220px;
+    left: 140px;
+}
+.room2 #t2 {
+    font-size: 40px;
+    color: rgb(255, 234, 0);
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 700px;
+    left: 130px;
+}
+}
